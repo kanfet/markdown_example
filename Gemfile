@@ -11,8 +11,11 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 
   gem 'bootstrap-sass', '~> 2.2.2.0'
+  gem 'markitup-rails'
 end
 
 gem 'jquery-rails'
 gem 'haml-rails'
 gem 'simple_form'
+
+gem 'redcarpet'

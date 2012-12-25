@@ -59,6 +59,8 @@ GEM
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    markitup-rails (0.2.2)
+      railties (~> 3.0)
     mime-types (1.19)
     multi_json (1.5.0)
     polyglot (0.3.3)
@@ -87,6 +89,7 @@ GEM
     rake (10.0.3)
     rdoc (3.12)
       json (~> 1.4)
+    redcarpet (2.2.2)
     sass (3.2.4)
     sass-rails (3.2.5)
       railties (~> 3.2.0)
@@ -119,7 +122,9 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   haml-rails
   jquery-rails
+  markitup-rails
   rails (= 3.2.9)
+  redcarpet
   sass-rails (~> 3.2.3)
   simple_form
   sqlite3
